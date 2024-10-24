@@ -4,6 +4,7 @@ import "fmt"
 
 /*
 Time Complexity O(N)
+https://leetcode.com/problems/palindrome-number/description/
 */
 func main() {
 	result := IsPalindromeNumber(234)
