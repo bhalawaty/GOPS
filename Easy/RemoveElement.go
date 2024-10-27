@@ -8,7 +8,7 @@ https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-in
 func main() {
 
 	var val int = 3
-	nums := []int{1, 2, 3, 3, 2}
+	nums := []int{3, 2, 2, 3}
 
 	fmt.Println(removeElement(nums, val))
 
@@ -24,5 +24,6 @@ func removeElement(nums []int, val int) int {
 			k += 1
 		}
 	}
+	fmt.Println(nums)
 	return k
 }
